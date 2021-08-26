@@ -1,0 +1,44 @@
+﻿.footer {
+    background-color: rgb(59, 57, 57);
+    color: white;
+}
+.footerHeader {
+    color: rgb(238, 255, 0)
+}
+.footerLogo {
+    width: 25%;
+    height: 15%;
+}
+.footerLink a {
+    color: rgb(255, 255, 255);
+}
+.contactSocial a {
+    margin-left: 4%;
+    padding: 5px;
+    text-decoration: none;
+}
+.footer-useful-link{
+    display: contents;
+}
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 900px) {
+    .contactSocial{
+        margin-top: 1% !important;
+        margin-bottom: 4%;
+    }
+    .footer-main-header p{
+        margin-top: 2% !important;
+    }
+    .footer-useful-link{
+        width: 100%;
+        display: flex;
+        flex-direction: row;justify-content: space-around;
+        margin: 3%;
+    }
+    .contactSocial a {
+        margin: 0%;
+        padding: 3px;
+    }
+}

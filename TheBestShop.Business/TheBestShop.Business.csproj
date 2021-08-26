@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IyzipayCore" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TheBestShop.Core\TheBestShop.Core.csproj" />
+    <ProjectReference Include="..\TheBestShop.DataAccess\TheBestShop.DataAccess.csproj" />
+    <ProjectReference Include="..\TheBestShop.Entity\TheBestShop.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

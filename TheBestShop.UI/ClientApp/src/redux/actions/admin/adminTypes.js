@@ -1,0 +1,5 @@
+export const SET_ADMIN_PAGE_DATA = 'SET_ADMIN_PAGE_DATA';
+export const GET_ROLES = 'GET_ROLES';
+export const GET_ROLE = 'GET_ROLE';
+export const SET_ADMIN_PAGE_SEARCH_VALUE = 'SET_ADMIN_PAGE_SEARCH_VALUE';
+export const SET_REFLESH = 'SET_REFLESH';

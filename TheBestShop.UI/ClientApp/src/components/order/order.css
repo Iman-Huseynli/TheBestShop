@@ -1,0 +1,30 @@
+.order-container{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.order-left-container{
+    width: 50%;
+}
+.order-right-container{
+    width: 45%;
+    margin-top: 5%;
+    position: relative;
+}
+.order-right-container-item{
+    max-height: 40rem;
+    overflow-y: auto;
+}
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 900px) {
+    .order-left-container{
+        width: 100%;
+    }
+    .order-right-container{
+        width: 100%;
+    }
+    .order-right-container-item{
+        max-height: 30rem;
+    }
+}

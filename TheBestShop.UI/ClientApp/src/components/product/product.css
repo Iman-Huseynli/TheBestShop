@@ -1,0 +1,25 @@
+.product-main{
+    margin: 1% 5%;
+}
+.product-card-image {
+    height: 20rem !important;
+}
+.product-page-card-header{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.detail-page-main{
+    align-items: flex-start;
+}
+.product-detail-img-main{
+    height: 30rem;
+}
+.product-detail-img-main div{
+    height: 100%;
+}
+.product-detail-img-main div img{
+    height: 100%;
+}

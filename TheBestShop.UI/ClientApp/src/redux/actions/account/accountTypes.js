@@ -1,0 +1,7 @@
+export const REGISTER = 'REGISTER'
+export const LOGIN = 'LOGIN'
+export const LOGOUT = 'LOGOUT'
+export const CHECKISAUTH = 'CHECKISAUTH'
+export const CHECKISADMIN = 'CHECKISADMIN'
+export const GET_USER = 'GET_USER'
+export const GET_USER_WITH_ROLES = 'GET_USER_WITH_ROLES'
