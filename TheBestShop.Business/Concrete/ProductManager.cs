@@ -102,7 +102,7 @@ namespace TheBestShop.Business.Concrete
         {
             var random = new Random();
             var count = _productDal.GetAll(filter: null, x => x.OrderByDescending(d => d.Id)).FirstOrDefault();
-            var randomCount = random.Next(1, count.Id);
+            var randomCount = random.Next(1, count?.Id ?? 1);
             var data = _productDal.GetAll(c => c.Id > randomCount && c.Availability == true).Take(15).ToList();
             return new SuccessDataResult<List<Product>>(data, Messages.DataGetSuccessfully);
         }
@@ -111,7 +111,7 @@ namespace TheBestShop.Business.Concrete
         {
             var random = new Random();
             var count = _productDal.GetAll(filter: null, x => x.OrderByDescending(d => d.Id)).FirstOrDefault();
-            var randomCount = random.Next(1, count.Id);
+            var randomCount = random.Next(1, count?.Id ?? 1);
             var data = _productDal.GetAll(c => c.Id > randomCount && c.Availability == true).Take(15).ToList();
             return new SuccessDataResult<List<Product>>(data, Messages.DataGetSuccessfully);
         }
@@ -120,7 +120,7 @@ namespace TheBestShop.Business.Concrete
         {
             var random = new Random();
             var count = _productDal.GetAll(filter: null, x => x.OrderByDescending(d => d.Id)).FirstOrDefault();
-            var randomCount = random.Next(1, count.Id);
+            var randomCount = random.Next(1, count?.Id ?? 1);
             var data = _productDal.GetAll(c => c.Id > randomCount && c.Availability == true).Take(15).ToList();
             return new SuccessDataResult<List<Product>>(data, Messages.DataGetSuccessfully);
         }
@@ -129,7 +129,7 @@ namespace TheBestShop.Business.Concrete
         {
             var random = new Random();
             var count = _productDal.GetAll(filter: null, x => x.OrderByDescending(d => d.Id)).FirstOrDefault();
-            var randomCount = random.Next(1, count.Id);
+            var randomCount = random.Next(1, count?.Id ?? 1);
             var data = _productDal.GetAll(c => c.Id > randomCount && c.Availability == true).Take(15).ToList();
             return new SuccessDataResult<List<Product>>(data, Messages.DataGetSuccessfully);
         }
